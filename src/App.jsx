@@ -16,39 +16,39 @@ function App() {
     },
     {
       path: "/home",
-      element: <><Topbar /><Navbar /><Footer/></>
+      element: <><Topbar /><Navbar /><Home /><Footer /></>
     },
     {
       path: "/about",
-      element: <><Topbar /><Navbar /><Footer/></>
+      element: <><Topbar /><Navbar /><Footer /></>
     },
     {
       path: "/candidate",
-      element: <><Topbar /><Navbar /><Footer/></>
+      element: <><Topbar /><Navbar /><Footer /></>
     },
     {
       path: "/cets",
-      element: <><Topbar /><Navbar /><Footer/></>
+      element: <><Topbar /><Navbar /><Footer /></>
     },
     {
       path: "/institute",
-      element: <><Topbar /><Navbar /><Footer/></>
+      element: <><Topbar /><Navbar /><Footer /></>
     },
     {
       path: "/download",
-      element: <><Topbar /><Navbar /><Footer/></>
+      element: <><Topbar /><Navbar /><Footer /></>
     },
     {
       path: "/contact",
-      element: <><Topbar /><Navbar /><Footer/></>
+      element: <><Topbar /><Navbar /><Footer /></>
     },
     {
       path: "/work-with-us",
-      element: <><Topbar /><Navbar /><Footer/></>
+      element: <><Topbar /><Navbar /><Footer /></>
     },
     {
       path: "/user-manual",
-      element: <><Topbar /><Navbar /><Footer/></>
+      element: <><Topbar /><Navbar /><Footer /></>
     },
   ])
 
@@ -56,7 +56,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router}>
-      
+
       </RouterProvider>
 
     </>

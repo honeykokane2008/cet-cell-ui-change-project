@@ -8,7 +8,7 @@ const variantStyles = {
 
 const Button = ({ children, variant = "primary", ...rest }) => {
     return (
-        <button className={`px-4 py-2 rounded-md font-medium transition-colors cursor-pointer ${variantStyles[variant]}`} {...rest}>
+        <button className={`px-2 py-2 rounded-md font-medium transition-colors cursor-pointer ${variantStyles[variant]}`} {...rest}>
             {children}
         </button>
     );

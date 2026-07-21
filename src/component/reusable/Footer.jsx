@@ -55,18 +55,28 @@ const Footer = () => {
             <div className="visitor-counter ">
                 <h1>Follow us on Social Media</h1>
                 <div className='grid grid-cols-2'>
-                    <a target="_blank" rel="noopener noreferrer" href='https://www.youtube.com/channel/UCxG62HhJYPs84j1hHxTd_hA'>
-                        <img width="48" height="48" src="https://img.icons8.com/fluency/48/youtube-play.png" alt="youtube-play" />
-                    </a>
-                    <a target='_blank' rel='noopeneer noreferrer' href='https://www.facebook.com/statecetcell'>
-                        <img width="48" height="48" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new" />
-                    </a>
-                    <a target='_blank' rel='noopeneer noreferrer' href='https://x.com/cetcell?s=11'>
-                        <img width="48" height="48" src="https://img.icons8.com/fluency/48/twitterx--v1.png" alt="twitterx--v1" />
-                    </a>
-                    <a target='_blank' rel='noopeneer noreferrer' href='https://www.instagram.com/statecetcellmumbai/'>
-                        <img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new" />
-                    </a>
+                    <ul className='flex gap-5'>
+                        <li>
+                            <a className='inline-block' target="_blank" rel="noopener noreferrer" href='https://www.youtube.com/channel/UCxG62HhJYPs84j1hHxTd_hA'>
+                                <img width="48" height="48" src="https://img.icons8.com/fluency/48/youtube-play.png" alt="youtube-play" />
+                            </a>
+                        </li>
+                        <li>
+                            <a className='inline-block' target='_blank' rel='noopeneer noreferrer' href='https://www.facebook.com/statecetcell'>
+                                <img width="48" height="48" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new" />
+                            </a>
+                        </li>
+                        <li>
+                            <a className='inline-block' target='_blank' rel='noopeneer noreferrer' href='https://x.com/cetcell?s=11'>
+                                <img width="48" height="48" src="https://img.icons8.com/fluency/48/twitterx--v1.png" alt="twitterx--v1" />
+                            </a>
+                        </li>
+                        <li>
+                            <a className='inline-block' target='_blank' rel='noopeneer noreferrer' href='https://www.instagram.com/statecetcellmumbai/'>
+                                <img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new" />
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </footer>
