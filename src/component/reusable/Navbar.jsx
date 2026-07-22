@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import Button from '../ul-component/Button'
-import { navLinks, navLinksClass } from '../../data/navLink'
+import { navLinks, navLinksClass, } from '../../data/Data'
 import { useState } from 'react'
 
 

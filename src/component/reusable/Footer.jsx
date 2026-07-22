@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import { navLinks, navLinksClass } from '../../data/navLink'
+import { navLinks, navLinksClass } from '../../data/Data'
 
 
 const Footer = () => {
