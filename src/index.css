@@ -136,6 +136,16 @@ body {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+  filter: drop-shadow(0 10px 8px rgba(0, 0, 0, 0.04)) drop-shadow(0 4px 3px rgba(0, 0, 0, 0.1));
+}
+
+h2 {
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+  filter: drop-shadow(0 10px 8px rgba(0, 0, 0, 0.04)) drop-shadow(0 4px 3px rgba(0, 0, 0, 0.1));
 }
 
 p {
@@ -144,6 +154,23 @@ p {
   font-weight: 600;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
+  
+  max-width: 576px;
+}
+
+span {
+  margin-bottom: 12px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+
+  span {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }

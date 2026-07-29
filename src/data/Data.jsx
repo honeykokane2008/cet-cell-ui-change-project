@@ -31,7 +31,7 @@ export const logLinks = [
 
   },
 
-// #D4A017
+
   {
     accent: "#4F46E5",
     label: "Admission Portal",
@@ -41,7 +41,7 @@ export const logLinks = [
     </svg>),
     path:"/about"
   },
-// #0F9D8B
+
   {
     accent: "#4F46E5",
     label: "Foreign Candidate Registration",
@@ -52,8 +52,7 @@ export const logLinks = [
     path:"/about"
   },
 
-// #C2410C
-// currentColor
+
   {
     accent: "#4F46E5",
     label: "विद्यार्थी सहाय्यता केंद्रांची यादी",
