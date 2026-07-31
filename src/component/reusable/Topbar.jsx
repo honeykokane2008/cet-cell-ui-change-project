@@ -8,7 +8,7 @@ const Topbar = () => {
             <span className='line-clamp-1 '>This website is for practice and educational purpose</span>
 
             {/* this url need to change to public one */}
-            <img className="h-8 w-auto" alt='Seal_of_Maharashtra' src='src\photos\Seal_of_Maharashtra.svg.png-removebg-preview.png.webp'></img>
+            <img className="h-8 w-auto" alt='Seal_of_Maharashtra' src='https://cetcell.mahacet.org/wp-content/uploads/2025/01/Seal_of_Maharashtra.svg.png-removebg-preview.png.webp'></img>
         </div>
     )
 }
