@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
             <div className="Quick-link">
                 <h1>Quic Links</h1>
-                <ul className='list-none gap-4.5 grid grid-cols-2'>
+                <ul className='list-none gap-4.5 grid grid-cols-1'>
                     {navLinks.map((link) => (
                         <li key={link.path}>
                             <NavLink

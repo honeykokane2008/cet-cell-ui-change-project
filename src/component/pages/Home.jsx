@@ -33,10 +33,10 @@ const Home = () => {
 
 
 
-      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-2 sm:px-4 lg:px-0 w-full  '>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-2 sm:px-4 lg:px-0 w-full m-0.5'>
 
 
-        <section className='login-side  bg-(--background) flex flex-col w-full border border-transparent rounded-4xl p-6 text-xs sm:text-sm'>
+        <section className='login-side  bg-(--background) flex flex-col w-full border-2 border-gray-300 rounded-4xl p-6 text-xs sm:text-sm'>
           <p className="text-(--foreground)/40">LogIn Side</p>
           <ul className='flex flex-col gap-5 p-5'>
             {logLinks.map((log) => (
@@ -70,7 +70,7 @@ const Home = () => {
         </section>
 
 
-        <section className='cardSection bg-(--background) p-6 flex flex-col gap-4 w-full sm:col-span-2 lg:col-span-1 border border-transparent rounded-4xl text-xs sm:text-sm'>
+        <section className='cardSection bg-(--background) p-6 flex flex-col gap-4 w-full sm:col-span-2 lg:col-span-1 border-2 border-gray-300 rounded-4xl text-xs sm:text-sm'>
           <p className="text-(--foreground)/40">Platform at a glance</p>
           <div className='grid grid-cols-2 gap-4'>
             {statCards.map((card) => (
@@ -87,7 +87,7 @@ const Home = () => {
 
         </section>
 
-        <section className='noticeBoard bg-(--background) p-6 flex flex-col gap-4 w-full sm:col-span-2 lg:col-span-1 border border-transparent rounded-4xl text-xs sm:text-sm max-h-100 lg:max-h-137'>
+        <section className='noticeBoard bg-(--background) p-6 flex flex-col gap-4 w-full sm:col-span-2 lg:col-span-1 border-2 border-gray-300 rounded-4xl text-xs sm:text-sm max-h-100 lg:max-h-137'>
           <p className="text-(--foreground)/40">Notice Board</p>
           <div className='overflow-y-auto overflow-x-auto w-full flex-1 min-h-0 scroll-smooth scrollbar-thin scrollbar-gutter-stable'>
             <table className='w-full'>

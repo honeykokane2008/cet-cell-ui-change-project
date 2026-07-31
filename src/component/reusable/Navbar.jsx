@@ -9,7 +9,7 @@ import { useState } from 'react'
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
     return (
-        <div className='Navbar sticky top-0 left-0  z-50 p-1 m-1 flex justify-evenly items-center bg-(--background) border-transparent rounded-(--radius)  '>
+        <div className='Navbar sticky top-0 left-0  z-50 p-1 m-1 flex justify-evenly items-center bg-(--background) rounded-(--radius) border-2 border-gray-300'>
             <div className=' flex justify-evenly items-center'>
                 <img className="w-15 h-15 rounded-full object-cover" alt='cet-cell-logo' src='src\photos\STATE_CET__CELL_Mumbai_idJ-CwTB2m_1.jpeg'>
                 </img>
