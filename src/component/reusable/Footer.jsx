@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 bg-(--foreground) text-white px-10 py-12' >
             <div className="Address flex-col space-y-5">
                 <div className='flex items-start gap-3'>
-                    <img className="w-15 h-15 rounded-full object-cover" alt='cet-cell-logo' src='src\photos\STATE_CET__CELL_Mumbai_idJ-CwTB2m_1.jpeg'>
+                    <img className="w-15 h-15 rounded-full object-cover" alt='cet-cell-logo' src='https://cetcell.mahacet.org/wp-content/uploads/2025/01/cet_cell-removebg-preview.png-removebg-preview-1.png.webp'>
                     </img>
 
                     <div className='text-white'><h1>Government of Maharashtra</h1><p>State Common Entrance Test Cell</p></div>

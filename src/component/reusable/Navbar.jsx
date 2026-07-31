@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <div className='Navbar sticky top-0 left-0  z-50 p-1 m-1 flex justify-evenly items-center bg-(--background) rounded-(--radius) border-2 border-gray-300'>
             <div className=' flex justify-evenly items-center'>
-                <img className="w-15 h-15 rounded-full object-cover" alt='cet-cell-logo' src='src\photos\STATE_CET__CELL_Mumbai_idJ-CwTB2m_1.jpeg'>
+                <img className="w-15 h-15 rounded-full object-cover" alt='cet-cell-logo' src='https://cetcell.mahacet.org/wp-content/uploads/2025/01/cet_cell-removebg-preview.png-removebg-preview-1.png.webp'>
                 </img>
                 <div className='text-(--foreground)'><h1>Government of Maharashtra</h1><p>State Common Entrance Test Cell</p></div>
             </div>
