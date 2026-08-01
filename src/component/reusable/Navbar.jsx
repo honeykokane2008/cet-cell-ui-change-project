@@ -68,13 +68,21 @@ const Navbar = () => {
                     ))}
                 </ul>
 
-                <Button variant="primary">LogIn / SignIn</Button>
+                <Link to="/candidate">
+                    <Button variant="primary">
+                        LogIn / SignIn
+                    </Button>
+                </Link>
             </div>
 
 
 
             <div className="hidden md:block">
-                <Button variant="primary">LogIn / SignIn</Button>
+                <Link to="/candidate">
+                    <Button variant="primary">
+                        LogIn / SignIn
+                    </Button>
+                </Link>
             </div>
         </div>
     )
